@@ -13,7 +13,7 @@ s103t_info()
     modprobe wl
     modprobe wmi
     modprobe lsrot.ko
-    echo WAKE_LOCK_SUSPEND > /sys/power/wake_lock
+    echo test > /sys/power/wake_lock
     return 1
 }
 
