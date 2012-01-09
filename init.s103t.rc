@@ -1,7 +1,2 @@
 on boot
     chown system system /sys/class/backlight/acpi_video0/brightness
-
-service netcfghack /system/bin/netcfg eth1 dhcp
-    class main
-    user root
-    oneshot
